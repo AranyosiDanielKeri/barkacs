@@ -2,3 +2,11 @@
     box-sizing: border-box;
     user-select: none;
 }
+#icon{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+}
+.drop-shadow{
+    text-shadow: 2px;
+}

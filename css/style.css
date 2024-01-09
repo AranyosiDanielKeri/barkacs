@@ -41,6 +41,22 @@ a:not(.active):not(.navbar-brand){
 }
 
 .carousel-d {
+    margin-left: 8vw;
     padding-left: 5vw;
     padding-right: 5vw;
+    height: 80%;
+    width: 80%;
+    padding-bottom: 2%;
+    margin-top: 2%;
+}
+
+.carousel-inner {
+    background-color: #D9D9D9;
+}
+
+.custom-box {
+    background-color: #D9D9D9;
+    padding: 5%;
+    border-radius: 1px;
+    height: 20vh;
 }

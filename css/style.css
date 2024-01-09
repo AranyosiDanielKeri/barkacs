@@ -3,7 +3,9 @@
 *{
     box-sizing: border-box;
     user-select: none;
+    background-color: #304023;
 }
+
 #icon{
     width: 2rem;
     height: 2rem;
@@ -25,4 +27,17 @@ a:not(.active):not(.navbar-brand){
 }
 .carousel-black{
     filter: invert(100%);
+}
+
+.carousel-paint-l {
+    margin-left: 10vw;
+}
+
+.carousel-paint-r {
+    margin-right: 10vw;
+}
+
+.carousel-d {
+    padding-left: 5vw;
+    padding-right: 5vw;
 }

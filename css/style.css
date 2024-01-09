@@ -3,6 +3,9 @@
 *{
     box-sizing: border-box;
     user-select: none;
+}
+
+body {
     background-color: #304023;
 }
 

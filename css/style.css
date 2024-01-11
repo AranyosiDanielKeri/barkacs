@@ -62,6 +62,11 @@ a:not(.active):not(.navbar-brand){
     margin-top: 2%;
 }
 
+.carousel-i {
+    height: 100%;
+    width: 100%;
+}
+
 .carousel-inner {
     background-color: #D9D9D9;
 }
@@ -114,6 +119,3 @@ a:not(.active):not(.navbar-brand){
         margin-top: 5%;
     }
   }
-.banner{
-    height: 300px;;
-}

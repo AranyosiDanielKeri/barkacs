@@ -51,11 +51,11 @@ a:not(.active):not(.navbar-brand){
 }
 
 .carousel-d {
-    margin-left: 8vw;
+    margin-left: 15vw;
     padding-left: 5vw;
     padding-right: 5vw;
-    height: 80%;
-    width: 80%;
+    height: 70%;
+    width: 70%;
     padding-bottom: 2%;
     margin-top: 2%;
 }
@@ -75,3 +75,40 @@ a:not(.active):not(.navbar-brand){
     align-items: center;
     justify-content: center;
 }
+
+.gjs-row{
+    display:flex;
+    justify-content:flex-start;
+    align-items:stretch;
+    flex-wrap:nowrap;
+    padding:10px;
+  }
+  .gjs-cell{
+    min-height:75px;
+    flex-grow:1;
+    flex-basis:100%;
+    background-color: white;
+  }
+  #iq59{
+    height:398px;
+    text-align:left;
+    display:flex;
+    position:static;
+    align-items:center;
+    justify-content:space-around;
+  }
+  #iqyf{
+    flex-basis:175%;
+    height:300px;
+    max-width:900px;
+  }
+  @media (max-width: 768px){
+    .gjs-row{
+      flex-wrap:wrap;
+    }
+  }
+  @media only screen and (max-width: 1350px) and (min-width: 768px)  {
+    .gjs-row {
+        margin-top: 5%;
+    }
+  }

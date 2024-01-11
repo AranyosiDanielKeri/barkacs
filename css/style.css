@@ -47,7 +47,9 @@ a:not(.active):not(.navbar-brand){
     display: flex;
     height: 500px;
     max-height: 500px;
-    
+    max-width: 1200px;
+    margin-left: 4%;
+    overflow: hidden;
 }
 
 .carousel-d {
@@ -112,3 +114,6 @@ a:not(.active):not(.navbar-brand){
         margin-top: 5%;
     }
   }
+.banner{
+    height: 300px;;
+}

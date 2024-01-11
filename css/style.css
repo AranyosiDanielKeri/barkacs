@@ -119,3 +119,34 @@ a:not(.active):not(.navbar-brand){
         margin-top: 5%;
     }
   }
+  .gjs-row{
+    display:flex;
+    justify-content:flex-start;
+    align-items:stretch;
+    flex-wrap:nowrap;
+    padding:10px;
+  }
+  .gjs-cell{
+    min-height:75px;
+    flex-grow:1;
+    flex-basis:100%;
+  }
+  #ied1{
+    height:100%;
+    justify-content:space-around;
+    align-items:center;
+    display: flex;
+  }
+  #i3s4{
+    display:block;
+    margin:0px 85px 0px 85px;
+  }
+  #ilq4{
+    flex-basis:137%;
+    margin:0px 85px 0px 85px;
+  }
+  @media (max-width: 768px){
+    .gjs-row{
+      flex-wrap:wrap;
+    }
+  }

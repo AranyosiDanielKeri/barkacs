@@ -4,9 +4,12 @@
     box-sizing: border-box;
     user-select: none;
 }
-
+html{height:100%;}
 body {
     background-color: #304023;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
 }
 
 #icon{
@@ -43,4 +46,7 @@ a:not(.active):not(.navbar-brand){
 .carousel-d {
     padding-left: 5vw;
     padding-right: 5vw;
+}
+.carousel-container{
+    height: 500px;
 }

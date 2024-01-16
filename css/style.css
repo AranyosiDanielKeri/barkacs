@@ -29,7 +29,6 @@ a{
 }
 a:not(.active):not(.navbar-brand){
     color:#ffffffb9 !important;
-    margin-left: 1rem;
 }
 .carousel-black{
     filter: invert(100%);

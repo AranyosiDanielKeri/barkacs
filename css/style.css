@@ -63,8 +63,8 @@ a:not(.active):not(.navbar-brand){
 }
 
 .carousel-i {
-    height: 100%;
-    width: 100%;
+    max-height: 370px;
+    width: 102%;
 }
 
 .carousel-inner {

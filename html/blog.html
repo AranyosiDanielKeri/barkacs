@@ -28,7 +28,7 @@
                         <a class="nav-link" href="paint.html">Festékek</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="woods.html">Fák</a>
+                        <a class="nav-link" href="woods.html">Faanyagok</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="tools.html">Szerszámok</a>
@@ -49,28 +49,46 @@
             <h1>Barkács Blog</h1>
         </div>
         
-        <div class="bg-secondary d-inline-block mt-3">
-            <div class="text-white p-2 d-inline-block">Év alapján szűrés:</div>
-            <select name="evcsop" class="select me-2">
-                <option value="-">----</option>
-                <option value="2024">2023</option>
-                <option value="2025">2024</option>
-            </select>    
-        </div>
-
-        <div id="cikkek" class="d-inline-block">
-            <div class="card" style="width: 30rem;">
-                <img class="card-img-top" src="" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Olvasson tovább</a>
-                </div>
-              </div>
+        <div class="row d-inline-block mt-3 mx-auto">
+            <div class="bg-secondary">
+                <div class="text-white p-2 d-inline-block">Év alapján szűrés:</div>
+                <select name="evcsop" class="select me-2">
+                    <option value="-">----</option>
+                    <option value="2024">2023</option>
+                    <option value="2025">2024</option>
+                </select>    
+            </div>
         </div>
         
+
+        <div id="cikkek">
+            <div class="row mt-5">
+                <div class="card col-12 col-md-6 col-lg-6">
+                    <img class="card-img-top" src="../img/blog/painter-blog.jpg" alt="Festés">
+                    <div class="card-body">
+                        <h5 class="card-title">Szobafestés ötletek: hasznos technikák, színek, tanácsok</h5>
+                        <span class="ev">2023</span>
+                        <p class="card-text">Ha egy kis frissességet, változatosságot szeretnénk varázsolni megfáradt otthonunkba, vagy ha új lakásba költözünk, a szobafestés gondolata mindenképpen felmerül bennünk többször életünk folyamán. A gyerekeink által összefogdosott fal...</p>
+                        <a href="./cikkek/szobafestes_01.html" class="btn btn-primary mx-auto width-auto">Olvasson tovább</a>
+                    </div>
+                </div>
+
+                <div class="card col-sm-12 col-md-6 col-lg-6">
+                    <img class="card-img-top" src="../img/blog/painter-blog.jpg" alt="Festés">
+                    <div class="card-body">
+                        <h5 class="card-title">Szobafestés ötletek: hasznos technikák, színek, tanácsok</h5>
+                        <span class="ev">2024</span>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quia doloribus ipsam, nihil eos eaque sapiente voluptas ducimus error quas eveniet corrupti earum distinctio minus eius! Ipsum aperiam, porro repudiandae id ratione ex ipsam consequatur eveniet deserunt laudantium rerum voluptates, sint ea animi quisquam! Explicabo quae repellendus aperiam ratione ullam...
+                        </p>
+                        <a href="./cikkek/szobafestes_01.html" class="btn btn-primary mx-auto width-auto">Olvasson tovább</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
-  
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script>
     <script>

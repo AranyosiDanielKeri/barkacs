@@ -161,3 +161,10 @@ a:not(.active):not(.navbar-brand){
     background-color: #D9D9D9;
     padding: 3px;
 }
+p{
+  font-size: large;
+  text-align: justify;
+}
+.text-justify{
+  text-align: justify;
+}

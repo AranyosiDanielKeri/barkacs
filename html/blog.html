@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="../components/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Barkács</title>
+    <title>Barkács Blog</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg">
@@ -54,17 +54,17 @@
                 <div class="text-white p-2 d-inline-block">Év alapján szűrés:</div>
                 <select name="evcsop" class="select me-2">
                     <option value="-">----</option>
-                    <option value="2024">2023</option>
-                    <option value="2025">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
                 </select>    
             </div>
         </div>
         
 
         <div id="cikkek">
-            <div class="row mt-5">
+            <div class="row my-5">
                 <div class="card col-12 col-md-6 col-lg-6">
-                    <img class="card-img-top" src="../img/blog/painter-blog.jpg" alt="Festés">
+                    <img class="card-img-top pt-3" src="../img/blog/painter-blog.jpg" alt="Festés">
                     <div class="card-body">
                         <h5 class="card-title">Szobafestés ötletek: hasznos technikák, színek, tanácsok</h5>
                         <span class="ev">2023</span>
@@ -74,14 +74,14 @@
                 </div>
 
                 <div class="card col-sm-12 col-md-6 col-lg-6">
-                    <img class="card-img-top" src="../img/blog/painter-blog.jpg" alt="Festés">
+                    <img class="card-img-top pt-3" src="../img/blog/painter-blog.jpg" alt="Festés">
                     <div class="card-body">
-                        <h5 class="card-title">Szobafestés ötletek: hasznos technikák, színek, tanácsok</h5>
+                        <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
                         <span class="ev">2024</span>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quia doloribus ipsam, nihil eos eaque sapiente voluptas ducimus error quas eveniet corrupti earum distinctio minus eius! Ipsum aperiam, porro repudiandae id ratione ex ipsam consequatur eveniet deserunt laudantium rerum voluptates, sint ea animi quisquam! Explicabo quae repellendus aperiam ratione ullam...
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus unde delectus amet praesentium velit blanditiis, corrupti necessitatibus at tempore minus?...
                         </p>
-                        <a href="./cikkek/szobafestes_01.html" class="btn btn-primary mx-auto width-auto">Olvasson tovább</a>
+                        <a href="./cikkek/lorem.html" class="btn btn-primary mx-auto width-auto">Olvasson tovább</a>
                     </div>
                 </div>
             </div>
@@ -92,7 +92,14 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script>
     <script>
-        
+        let spans = document.querySelectorAll(".ev"), select = document.querySelector("select");
+        select.onchange = function(){
+            [...spans].forEach(element => {
+                console.log(element.innerText)
+                if (element.innerText != select.value && select.value != "-") element.parentElement.parentElement.classList.add("d-none");
+                else element.parentElement.parentElement.classList.remove("d-none");
+            });
+        }
     </script>
 </body>
 </html>

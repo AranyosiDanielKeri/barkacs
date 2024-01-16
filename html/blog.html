@@ -54,15 +54,15 @@
                 <div class="text-white p-2 d-inline-block">Év alapján szűrés:</div>
                 <select name="evcsop" class="select me-2">
                     <option value="-">----</option>
-                    <option value="2024">2023</option>
-                    <option value="2025">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
                 </select>    
             </div>
         </div>
         
 
         <div id="cikkek">
-            <div class="row mt-5">
+            <div class="row my-5">
                 <div class="card col-12 col-md-6 col-lg-6">
                     <img class="card-img-top pt-3" src="../img/blog/painter-blog.jpg" alt="Festés">
                     <div class="card-body">
@@ -92,7 +92,14 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script>
     <script>
-        
+        let spans = document.querySelectorAll(".ev"), select = document.querySelector("select");
+        select.onchange = function(){
+            [...spans].forEach(element => {
+                console.log(element.innerText)
+                if (element.innerText != select.value && select.value != "-") element.parentElement.parentElement.classList.add("d-none");
+                else element.parentElement.parentElement.classList.remove("d-none");
+            });
+        }
     </script>
 </body>
 </html>

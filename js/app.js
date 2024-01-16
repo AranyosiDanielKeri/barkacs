@@ -93,15 +93,3 @@ if (paintText){
         })
     });
 }
-
-
-let spans = document.querySelectorAll(".ev");
-if (spans.length >= 1){
-    let select = document.querySelector("select");
-    select.onchange = function(){
-        [...spans].forEach(element => {
-            if (element.innerText != select.value && select.value != "-") element.parentElement.parentElement.classList.add("d-none");
-            else element.parentElement.parentElement.classList.remove("d-none");
-        });
-    };
-};

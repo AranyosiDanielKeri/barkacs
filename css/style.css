@@ -173,3 +173,7 @@ p{
 .text-justify{
   text-align: justify;
 }
+.types div{
+  max-width:580px;
+  border:2px solid black
+}

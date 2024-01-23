@@ -173,3 +173,42 @@ p{
 .text-justify{
   text-align: justify;
 }
+
+.mtWoods {
+  margin-top: 2vh;
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+
+.woodsPics {
+  object-fit: cover;
+  width: 100%;
+  max-height: 175px;
+}
+
+.divRightWoods {
+  background-color: #C0FF99;
+  height: auto;
+  min-height: 18.5vh;
+}
+
+@media (max-width: 768px) {
+  .mtWoods {
+    margin-top: 3vh;
+  }
+
+  .woodsPics {
+    max-height: 150px;
+    width: 100%;
+    max-width: 110%;
+    margin-bottom: 1vh;
+  }
+
+  .divRightWoods {
+    min-height: 15vh;
+  }
+}
+
+.indexCarousel {
+  width: 100%; max-height: 400px; margin: auto; overflow: hidden;
+}

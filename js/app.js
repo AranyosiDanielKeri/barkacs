@@ -78,10 +78,16 @@ if (paintText){
         li3.innerText = "Ára: "+data["ár"];
         ul.append(li3);
 
-        i++;    
+        i++;
+
         paint.addEventListener("click", event => {
-            paintText.innerHTML = "";
+            if (prevSelected == event.currentTarget)
+            {
+                return;
+            }
             
+            paintText.innerHTML = "";
+
             event.currentTarget.classList.add("selected");
 
             prevSelected.classList.remove("selected");

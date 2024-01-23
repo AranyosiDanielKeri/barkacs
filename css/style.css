@@ -173,3 +173,7 @@ p{
 .text-justify{
   text-align: justify;
 }
+.aboutimg{
+  max-width: 100%;
+  min-width: 100%;
+}

@@ -173,7 +173,6 @@ p{
 .text-justify{
   text-align: justify;
 }
-<<<<<<< HEAD
 
 .mtWoods {
   margin-top: 2vh;
@@ -213,9 +212,7 @@ p{
 .indexCarousel {
   width: 100%; max-height: 400px; margin: auto; overflow: hidden;
 }
-=======
 .aboutimg{
   max-width: 100%;
   min-width: 100%;
 }
->>>>>>> 209c2918b6847c80381a57da8bf1c747a80ebb10

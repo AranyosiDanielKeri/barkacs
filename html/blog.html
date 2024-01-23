@@ -91,15 +91,5 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script>
-    <script>
-        let spans = document.querySelectorAll(".ev"), select = document.querySelector("select");
-        select.onchange = function(){
-            [...spans].forEach(element => {
-                console.log(element.innerText)
-                if (element.innerText != select.value && select.value != "-") element.parentElement.parentElement.classList.add("d-none");
-                else element.parentElement.parentElement.classList.remove("d-none");
-            });
-        }
-    </script>
 </body>
 </html>

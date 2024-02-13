@@ -111,10 +111,10 @@ a:not(.active):not(.navbar-brand) {
 
 .gjs-row {
     display: flex;
-    justify-content: flex-start;
-    align-items: stretch;
-    flex-wrap: nowrap;
-    padding: 10px;
+    /*justify-content: flex-start;*/
+    /*align-items: stretch;*/
+    /*flex-wrap: nowrap;*/
+    padding: 2px;
 }
 
 .gjs-cell {
@@ -183,6 +183,7 @@ a:not(.active):not(.navbar-brand) {
     display: block;
     margin: 0px 85px 0px 85px;
     background-color: #d9d9d9;
+    padding: 10px;
 }
 
 #ilq4 {

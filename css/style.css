@@ -17,12 +17,6 @@ body {
     height: 100%;
 }
 
-@media (max-width: 767px) {
-    body {
-        height:auto;
-    }
-}
-
 @media (max-width: 767px) and (min-width: 415px) {
     body {
         height:100%;
@@ -155,12 +149,6 @@ a:not(.active):not(.navbar-brand) {
     font-size: x-large;
 }
 
-@media (max-width: 768px) {
-    .gjs-row {
-        flex-wrap: wrap;
-    }
-}
-
 @media only screen and (max-width: 1350px) and (min-width: 768px) {
     .gjs-row {
         margin-top: 5%;
@@ -202,12 +190,6 @@ a:not(.active):not(.navbar-brand) {
 #ilq4 {
     flex-basis: 137%;
     margin: 0px 85px 0px 85px;
-}
-
-@media (max-width: 768px) {
-    .gjs-row {
-        flex-wrap: wrap;
-    }
 }
 
 .ev {
@@ -284,6 +266,14 @@ p {
     .divRightWoods p {
         font-size: 2.35vh;
         overflow: hidden;
+    }
+
+    .gjs-row {
+        flex-wrap: wrap;
+    }
+
+    body {
+        height:auto;
     }
 }
 

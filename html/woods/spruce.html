@@ -1,4 +1,4 @@
-../<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="../../css/style.css">
+    <style>
+        .table {
+            text-align: center;
+        }
+        .table img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .not-centered {
+            text-align: left;
+        }
+        .table td {
+            max-width: 100px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
     <title>Spruce</title>
 </head>
 <body>
@@ -43,41 +62,78 @@
         </div>
     </nav>
 
-    <div class="container mt-5">
-        <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">1</th>
-                <th scope="col">2</th>
-                <th scope="col">3</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>a</td>
-                <td>b</td>
-                <td>c</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>d</td>
-                <td>e</td>
-                <td>f</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>f</td>
-                <td>g</td>
-                <td>h</td>
-              </tr>
-            </tbody>
-          </table>
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col" colspan="2">Luc</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="2"><img src="./luc.jpg" class="img-fluid"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="text-center">
+                                A <b>luc</b> vagy <b>lucfenyő</b> tűlevelű faanyag, a közönséges lucfenyő (Picea abies) sokoldalúan használható anyaga.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th colspan="2" class="text-center ">
+                                <u>Általános adatok</u>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>Rönkhossz</th>
+                            <td>&lt;25 m</td>
+                        </tr>
+                        <tr>
+                            <th>Rönkátmérő</th>
+                            <td>1,2…2,0 m</td>
+                        </tr>
+                        <tr>
+                            <th>Sűrűség</th>
+                            <td>0,47 g/cm³</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2" class="text-center ">
+                                <u>Zsugorodás</u>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>Sugárirányban</th>
+                            <td>3,6 %</td>
+                        </tr>
+                        <tr>
+                            <th>Húrirányban</th>
+                            <td>7,8 %</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2" class="text-center ">
+                                <u>Szilárdság</u>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>Nyomó</th>
+                            <td>50 MPa</td>
+                        </tr>
+                        <tr>
+                            <th>Hajlító</th>
+                            <td>78 MPa</td>
+                        </tr>
+                        <tr>
+                            <th>Nyíró</th>
+                            <td>6,7 MPa</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" ></script>
-    
-    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>

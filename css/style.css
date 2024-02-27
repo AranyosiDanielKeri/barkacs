@@ -13,7 +13,7 @@ body {
     background-color: #304023;
     display: flex;
     flex-flow: column;
-    height: 100%;
+    overflow-y: auto;
 }
 
 .position-relative {

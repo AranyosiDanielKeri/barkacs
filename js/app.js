@@ -113,4 +113,5 @@ if (spans.length > 0) {
 }
 
 function myhref(web){
-    window.location.href = web;}
+    window.location.href = web;
+}
